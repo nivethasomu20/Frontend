@@ -1,0 +1,75 @@
+*{
+    background-color: rgba(189, 216, 218, 0.884);
+    color: black;
+}
+.nav{
+    background-color: rgb(121, 6, 228);
+    color: white;
+}
+#pricerange{
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.box1{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+.box2{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+.box3{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+.box4{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+.box5{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+.box6{
+    border-color: black;
+    border-width:1px ;
+    border-style: solid;
+    display:inline-block;
+    height: 250px;
+    width: 200px;
+}
+button{
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 5px;
+}
+.product{
+    padding: 15px;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
