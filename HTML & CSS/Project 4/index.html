@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0vM2sCZzrY4KoSlMsu8633nuaLd9HIXycA&s">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <nav class="nav">
+        <h1>Booksky</h1>
+    </nav>
+    <div class="container">
+    <div class="one">
+        <h3 class="bold">The Frozen</h3>
+        <b>Jennifer Lee</b>
+        <p>Anna embarks on an epic journey with mountain man Kristoff and his reindeer Sven to find her sister Elsa, whose ice powers trapped their kingdom in eternal winter.
+        “The Snow Queen” and written by Hans Christian Andersen in 1844, the story is drastically different from the Frozen we know today.</p>
+        <button class="btn" onclick="deletebook(event)">Delete</button>   
+    </div>
+    
+
+     <button class="two" id="idname">+</button>
+    
+    
+   </div>
+   <div class="popup-overlay">
+
+   </div>
+   <div class="popup">
+    <h1 style="color: black;" style="background-color:  rgb(236, 49, 49);">Add Book</h1>
+    <form>
+    <input type="text" placeholder="Book Title" id="booktitle"><br>
+    <input type="text" placeholder="Book Author" id="bookauthor"><br>
+    <textarea placeholder="About Book.." id="textarea"></textarea><br>
+    <button id="add-btn">ADD</button>
+    <button id="cancel-btn">CANCEL</button>
+    </form>
+   </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

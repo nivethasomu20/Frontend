@@ -1,0 +1,153 @@
+.nav{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.container{
+    padding: 10px;
+}
+.one{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 5%;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 320px;
+    vertical-align: top;
+}
+
+.btn{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.bold{
+    color: red;
+}
+h3{
+    color: red ;
+}
+.two{
+    background-color:black;
+    color:white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 20%;
+    position: fixed;
+    right: 20px;
+    border: none;
+    font-size: xx-large;
+}
+.two:hover{
+    background-color:black;
+    color: red;
+    cursor: pointer;
+    
+}
+
+.popup-overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup{
+    background-color: red;
+    color: black;
+    width: 400px;
+    height: 240px;
+    top: 20%;
+    left: 35%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+    position: absolute; 
+    display: none;
+}
+
+#booktitle{
+  background-color: red;
+  color: black;
+  border: none;
+  border-bottom:2px solid black;
+  width: 80%;
+
+}
+#bookauthor{
+  background-color: red;
+  color: black;
+  margin-top: 15px;
+  border: none;
+  border-bottom:2px solid black;
+  width: 80%;
+}
+#textarea{
+  background-color: red;
+  color: black;
+  margin-top: 15px;
+  border:2px solid black;
+  width: 80%;
+}
+#add-btn{
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#cancel-btn{
+   border-radius: 10px;
+   cursor: pointer;
+}   
+#add-btn:hover{
+    background-color: black;
+    color: white;
+}
+#cancel-btn:hover{
+    background-color: black;
+    color: white;   
+}
+#booktitle::placeholder{
+    color: black;
+}
+
+#bookauthor::placeholder{
+    color: black;
+}
+
+#textarea::placeholder{
+    color: black;
+}
+
+#booktitle:focus{
+    outline: none;
+}
+
+#bookauthor:focus{
+    outline: none;
+}
+#textarea:focus{
+    outline: none;
+}
