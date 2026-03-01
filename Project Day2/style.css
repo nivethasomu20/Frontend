@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(230, 45, 82);
+    color: white;
+}
+
+.main{
+    border-radius: 90%;
+}
+
+.parent{
+    display:flex;
+    justify-content: space-between;
+}
+.child1{
+    width: 170px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img{
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 30px;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.child1:hover{
+    transform: translateY(-30px);
+}
+span{
+    background-color: bisque;
+    color:rgb(230, 45, 82) ;
+    border-radius: 20px;
+}
